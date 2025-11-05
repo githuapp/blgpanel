@@ -263,16 +263,20 @@ ${episodeList}
 <!--more-->
 
 <div class="bs-video-player">
-    <ul class="player-options">
-        <li class="active">Opcion LAT</li>
-        <li>Opcion CAST</li>
-        <li>Opcion ENG</li>
-    </ul>
-    <ul class="bs-iframes">
-        <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ESPAÑOL__' width='560'></iframe></li>
-        <li><li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_CASTELLANO__' width='560'></iframe></li></li>
-        <li><li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ENGLISH__' width='560'></iframe></li></li>
-    </ul>
+<ul class="player-options">
+<li class="active">Opcion LAT</li>
+<li>Opcion CAST</li>
+<li>Opcion ENG</li>
+</ul>
+<ul class="bs-iframes">
+<li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ESPAÑOL__' width='560'></iframe>
+ </li>
+  
+  <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_CASTELLANO__' width='560'></iframe>
+    </li>
+  
+  <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ENGLISH__' width='560'></iframe>
+</li></ul>
 
 </div>
 
@@ -318,6 +322,7 @@ const opcionesVideo=document.querySelector(".player-options").querySelectorAll("
 }
 
 generar();
+
 
 
 
