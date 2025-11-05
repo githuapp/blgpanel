@@ -230,7 +230,14 @@ ${episodeList}
 
                     let template = document.getElementById('html-final');
 
-                    let justHtml = `<div class="post-header">
+                    let justHtml = `
+					<!--DATOS
+					TITULO:
+					${datos.title}
+					GENEROS: 
+					peliculas,${tags}${datos.release_date.slice(0,4)}
+					-->
+					<div class="post-header">
     <div class="image-and-btn">
         <img src="https://image.tmdb.org/t/p/w300/${datos.poster_path}" class="poster-img" alt="" />
         <div class="fav-js">
@@ -257,14 +264,14 @@ ${episodeList}
 
 <div class="bs-video-player">
     <ul class="player-options">
-        <li class="active">Opcion 1</li>
-        <li>Opcion 2</li>
-        <li>Opcion 3</li>
+        <li class="active">Opcion LAT</li>
+        <li>Opcion CAST</li>
+        <li>Opcion ENG</li>
     </ul>
     <ul class="bs-iframes">
-        <li class="active">IFRAME AQUI</li>
-        <li>IFRAME AQUI</li>
-        <li>IFRAME AQUI</li>
+        <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ESPAÑOL__' width='560'></iframe></li>
+        <li><li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_CASTELLANO__' width='560'></iframe></li></li>
+        <li><li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__URL_ENGLISH__' width='560'></iframe></li></li>
     </ul>
 
 </div>
