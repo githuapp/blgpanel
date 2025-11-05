@@ -235,7 +235,7 @@ ${episodeList}
 					TITULO:
 					${datos.title}
 					GENEROS: 
-					peliculas,${tags}${datos.release_date.slice(0,4)}
+					peliculas,${datos.release_date.slice(0,4)},${tags}
 					-->
 					<div class="post-header">
     <div class="image-and-btn">
