@@ -235,7 +235,7 @@ ${episodeList}
 					TITULO:
 					${datos.title}
 					GENEROS: 
-					peliculas,${datos.release_date.slice(0,4)},${tags}
+					${datos.release_date.slice(0,4)},peliculas,${tags}
 					-->
 					<div class="post-header">
     <div class="image-and-btn">
@@ -318,6 +318,7 @@ const opcionesVideo=document.querySelector(".player-options").querySelectorAll("
 }
 
 generar();
+
 
 
 
