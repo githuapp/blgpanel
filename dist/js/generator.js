@@ -269,9 +269,9 @@ ${episodeList}
 <li>Opcion ENG</li>
 </ul>
 <ul class="bs-iframes">
-        <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='https://lzrdrz10.github.io/player/?player=jwpl&provider=rand&format=video%2Fmp4&link=https%3A%2F%2Frumble.com%2Fhls-vod%2F6ttqxo%2Fplaylist.m3u8' width='560'></iframe></li>
-        <li><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='https://streamwish.to/e/mpxa3c0muqle' width='560'></iframe></li>
-        <li><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='https://hglink.to/e/koy2yqh0sjor' width='560'></iframe></li>
+        <li class="active"><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='__LATINO__' width='560'></iframe></li>
+        <li><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='___CASTELLANO___' width='560'></iframe></li>
+        <li><iframe allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='true' frameborder='0' height='315' scrolling='no' src='___INGLES___' width='560'></iframe></li>
     </ul>
 
 </div>
@@ -318,6 +318,7 @@ const opcionesVideo=document.querySelector(".player-options").querySelectorAll("
 }
 
 generar();
+
 
 
 
